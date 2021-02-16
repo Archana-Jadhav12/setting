@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/simpleSwitch21"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="All premium members"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <Switch
+        android:id="@+id/simpleSwitch22"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Premium members I have contacted/responded/shortlisted"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <Switch
+        android:id="@+id/simpleSwitch23"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No one(You won't be receiving video calls)"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+
+</LinearLayout>

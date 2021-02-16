@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView" type="id" />
+    <item name="button" type="id" />
+    <item name="textview" type="id" />
+    <item name="Notifications_card_view" type="id" />
+    <item name="Name" type="id" />
+    <item name="notifications_card_view" type="id" />
+    <item name="video_btn" type="id" />
+    <item name="advanced_details_card_view" type="id" />
+</resources>

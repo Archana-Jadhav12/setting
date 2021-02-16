@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="Let us know when we can call you"
+        android:textSize="17sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/simpleSwitch31"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Call when there are important updates/offers "
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <Switch
+        android:id="@+id/simpleSwitch32"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="call after 1 month"
+        android:textSize="17sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <Switch
+        android:id="@+id/simpleSwitch33"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="call after 3 month"
+        android:textSize="17sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <Switch
+        android:id="@+id/simpleSwitch34"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="call after 6 month"
+        android:textSize="17sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <Switch
+        android:id="@+id/simpleSwitch35"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Never"
+        android:textSize="17sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+
+
+
+
+</LinearLayout>

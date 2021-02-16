@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">setting</string>
+    <string name="notifications" />
+    <string name="Notifications" />
+    <string name="Alerts" />
+    <string name="Account" />
+    <string name="Password" />
+    <string name="Delete_Account" />
+    <string name="Logout" />
+    <string name="logout" />
+    <string name="PRIVACYSETTING" />
+    <string name="PRIVACY" />
+    <string name="selected_item" />
+
+    <string-array name="marriage">
+    </string-array>
+
+</resources>

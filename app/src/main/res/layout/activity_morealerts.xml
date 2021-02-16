@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose how often you receive notifications about any member's activity on your profile"
+            android:textSize="15sp"
+            android:textAlignment="textStart"
+            android:padding="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Express Interest"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When members send an interest"
+            android:textSize="15sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp" />
+
+
+        <Switch
+            android:id="@+id/simpleSwitch11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Get notified instantly"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:gravity="left" />
+
+        <Switch
+            android:id="@+id/simpleSwitch12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Get one notification daily for all interests received"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:gravity="left" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personalised Messages"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When premium members send messages"
+            android:textSize="15sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp" />
+
+
+        <Switch
+            android:id="@+id/simpleSwitch13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Get notified instantly"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:gravity="left" />
+
+        <Switch
+            android:id="@+id/simpleSwitch14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Get one notification daily for all interests received"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:gravity="left" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile Views"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When members view your profile"
+            android:textSize="15sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp" />
+
+
+        <Switch
+            android:id="@+id/simpleSwitch15"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Get notified instantly"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:gravity="left" />
+        <Switch
+            android:id="@+id/simpleSwitch16"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Get one notification daily for all interests received"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:gravity="left" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

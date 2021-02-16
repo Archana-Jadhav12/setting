@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/call_details_card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/call_details_card_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Preferences"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_add_ic_call_24"
+            android:drawablePadding="15dp"
+            android:padding="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/block_details_card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/block_details_card_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blocked Profiles"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="3dp"
+            android:drawableLeft="@drawable/ic_baseline_block_24"
+            android:drawablePadding="15dp"
+            android:padding="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ignore_details_card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/ignore_details_card_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ignored Profiles"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="3dp"
+            android:drawableLeft="@drawable/ic_baseline_disabled_by_default_24"
+            android:drawablePadding="15dp"
+            android:padding="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/action_details_card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/action_details_card_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Action Confirmation"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="3dp"
+        android:drawableLeft="@drawable/ic_baseline_check_box_24"
+        android:drawablePadding="15dp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

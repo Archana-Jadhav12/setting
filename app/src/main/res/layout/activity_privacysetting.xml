@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"  >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+
+        <Button
+        android:id="@+id/mob_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOBILE"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        android:textSize="10sp" />
+
+
+
+    <Button
+        android:id="@+id/photo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHOTO"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        android:textSize="10sp" />
+
+
+
+        <Button
+        android:id="@+id/hor_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOROSCOPE"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        android:textSize="10sp" />
+
+
+        <Button
+            android:id="@+id/video_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIDEO CHAT"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/teal_200"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="Show mobile number only to:"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/simpleSwitch21"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="All paid members"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:gravity="left" />
+
+        <Switch
+            android:id="@+id/simpleSwitch22"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Paid members from my community"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:gravity="left" />
+
+        <Switch
+            android:id="@+id/simpleSwitch23"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Paid members whom I contacted/responded to"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:gravity="left" />
+
+        <Switch
+            android:id="@+id/simpleSwitch24"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't show phone number(Hide contact details)"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:layout_marginBottom="5dp"
+            android:gravity="left" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

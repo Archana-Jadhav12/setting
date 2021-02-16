@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member Activity"
+        android:textSize="22sp"
+        android:textColor="#009688"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you turn these off,you won't be notified of any member's activity on your profile"
+        android:textSize="15sp"
+        android:textAlignment="textStart"
+        android:padding="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="start" />
+
+    <Switch
+        android:id="@+id/simpleSwitch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number Views"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When members view your number"
+        android:inputType="textCapSentences"
+        android:layout_margin="1dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+
+    <Switch
+        android:id="@+id/simpleSwitch1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Requests"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When members view your information"
+        android:textSize="16sp"
+        android:layout_margin="1dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textCapSentences"
+        android:layout_marginLeft="10dp" />
+
+
+
+    <Switch
+        android:id="@+id/simpleSwitch2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Shortlists"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When members shortlist you"
+        android:textSize="16sp"
+        android:layout_margin="1dp"
+        android:inputType="textCapSentences"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+
+    <Switch
+        android:id="@+id/simpleSwitch3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Chats"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When members are online or initiate chat"
+        android:textSize="16sp"
+        android:layout_margin="1dp"
+        android:inputType="textCapSentences"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:id="@+id/alert_details_card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/alert_details_card_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More Alerts"
+        android:textColor="#F44336"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matches"
+        android:textColor="#009688"
+        android:textSize="22sp"
+        android:paddingTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you turn these off,you might miss out on our recommendations based on your preferences"
+        android:textSize="15sp"
+        android:textAlignment="textStart"
+        android:padding="1dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="start" />
+
+    <Switch
+        android:id="@+id/simpleSwitch4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Matches"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Everyday"
+        android:textSize="16sp"
+        android:layout_margin="1dp"
+        android:inputType="textCapSentences"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+
+    <Switch
+        android:id="@+id/simpleSwitch5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Recommendations"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Everyday"
+        android:textSize="16sp"
+        android:layout_margin="1dp"
+        android:inputType="textCapSentences"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <Switch
+        android:id="@+id/simpleSwitch6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Based on your activity"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get notified about profiles similar to the ones you like"
+        android:textSize="16sp"
+        android:layout_margin="1dp"
+        android:inputType="textCapSentences"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Premium"
+        android:textColor="#009688"
+        android:textSize="22sp"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you turn these off,you might miss out on  offers and promotions"
+        android:textSize="15sp"
+        android:textAlignment="textStart"
+        android:padding="1dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="start" />
+
+    <Switch
+        android:id="@+id/simpleSwitch7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Membership Offers"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:checked="true"
+        android:gravity="left" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Packages,Discounts,etc"
+        android:textSize="16sp"
+        android:layout_margin="1dp"
+        android:inputType="textCapSentences"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+
+</LinearLayout>
+    </ScrollView>
